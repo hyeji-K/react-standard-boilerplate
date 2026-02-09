@@ -1,0 +1,29 @@
+{
+  "name": "react-standard-boilerplate",
+  "private": true,
+  "version": "0.0.0",
+  "description": "이 프로젝트는 Vite를 사용하여 생성된 표준적인 React 프로젝트 구조 예시입니다. 실무에서 자주 사용되는 폴더 구조(Feature-based 혹은 Layer-based)를 기반으로 구성되었으며, 각 폴더의 역할과 사용법을 학습할 수 있습니다.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.13.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "vite": "^7.3.1"
+  }
+}
